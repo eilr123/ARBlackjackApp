@@ -1,14 +1,46 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# ARBlackjackApp
+
+Welcome to ARBlackjackApp! This is an Augmented Reality Blackjack game built with React Native.
 
 # Getting Started
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+Follow these instructions to get the project set up and running on your local machine for development and testing purposes.
 
-## Step 1: Start Metro
+## Prerequisites
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+Before you begin, ensure you have your development environment set up for React Native. This includes:
+- **Node.js (LTS version recommended):** Download and install from [nodejs.org](https://nodejs.org/). npm (Node Package Manager) is included with Node.js.
+- **Watchman (for macOS users):** A file watching service. Install via Homebrew: `brew install watchman`. For other systems, see the Watchman installation guide.
+- **A Java Development Kit (JDK):** Required for Android development. You can download it from Oracle (JDK 11 is often recommended for React Native) or use an alternative like OpenJDK.
+- **Android Studio:** The official IDE for Android development. Download from the Android Studio website.
+    - During setup, make sure to install the Android SDK, Android SDK Platform, and Android Virtual Device.
+- **Xcode (for iOS development):** The official IDE for iOS development. Install from the Mac App Store.
+    - After installation, open Xcode, go to `Preferences > Locations` and ensure the `Command Line Tools` are set.
+    - You will also need to install the iOS Simulator.
+- **CocoaPods (for iOS development):** A dependency manager for Swift and Objective-C Cocoa projects. Install using RubyGems:
+  ```sh
+  sudo gem install cocoapods
+  ```
+- **Ruby and Bundler (for managing CocoaPods version on iOS):**
+    - Ruby typically comes pre-installed on macOS.
+    - Install Bundler: `gem install bundler`
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+> **Important**: While these instructions provide guidance, it's highly recommended to follow the official React Native Environment Setup guide for your specific OS and target platform (iOS/Android), as it provides the most comprehensive and up-to-date information.
+
+
+## Installation and Running
+
+**1. Clone the Repository**
+
+```sh
+git clone <your-repository-url>
+cd ARBlackjackApp
+```
+Replace `<your-repository-url>` with the actual URL of your GitHub repository (e.g., `https://github.com/your-username/ARBlackjackApp.git`).
+
+**2. Install Project Dependencies**
+
+Navigate to the project root directory and install the necessary JavaScript dependencies:
 
 ```sh
 # Using npm
