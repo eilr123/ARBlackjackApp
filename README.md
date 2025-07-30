@@ -44,10 +44,10 @@ Navigate to the project root directory and install the necessary JavaScript depe
 
 ```sh
 # Using npm
-npm start
+npm install
 
 # OR using Yarn
-yarn start
+yarn
 ```
 
 ## Step 2: Build and run your app
